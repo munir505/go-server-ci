@@ -1,5 +1,6 @@
 # go-server-ci
 Automated CI setup using Docker
+(Continuous Integration)
 
 To Install Docker Compose:
 ```bash
@@ -28,7 +29,7 @@ Then make a branch:
 ```bash
 git checkout -b <branch_name>
 ```
-Then make chnages to the files, after push the chnages to that branch:
+Then make changes to the files, after push the changes to that branch:
 ```bash
-git push
+git push -u origin <branch_name>
 ```
