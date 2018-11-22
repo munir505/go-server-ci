@@ -17,9 +17,9 @@ docker-compose up -d
 Jenkins will accessible from port 80
 
 When a branch has been built with the included Jenkins job
-It can be accessed from `/go-server/branch-name`
+It can be accessed from `<ip address>/go-server/branch-name`
 For example to connect to the deployed master branch:
-`/go-server/master`
+`<ip address>/go-server/master`
 
 To change and make branches, clone the 'go-server' repo:
 ```bash
